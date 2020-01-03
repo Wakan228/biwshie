@@ -1,0 +1,36 @@
+ //  var ex = document.querySelector(".ex")
+ //    var imain = document.querySelector(".imain")
+ //    var soc = document.querySelector(".soc")
+ //    var instain = document.querySelector(".instain")
+ //    var instin = document.querySelector(".instin")
+ //    var instin = document.querySelector(".instin")
+ //  var p = imain.offsetHeight - 96 
+ //  var i = 0
+ //  var a = 0
+
+   $('.imgs').hover(function(){
+   	$('this').find('.k1').fadeIn(1)
+   $('this').find('.k2').fadeIn(1)
+   $('this').find('.k3').fadeIn(1)
+   $('this').find('.k4').fadeIn(1)
+   $('this').find('.k5').fadeIn(1)
+   $('this').find('.k6').fadeIn(1)
+    $('this').find('.k1').css('left',130 +'%').width(150+'px').css('top',-45+'px')
+    $('this').find('.k2').css('top',40 +'px').css('left',210 +'%').width(250+'px')
+    $('this').find('.k3').css('top',-3 +'px').css('left',330 +'%').css('width',$('.daaa').val()+'px')
+    $('this').find('.k4').css('top',130 +'px').css('left',120 +'%')
+    $('this').find('.k5').css('left',510 +'%').css('top',205 + '%').width(165+'px')
+    },function(){
+   $('this').find('.k1').css('left',1+'%').css('width',1+'px')
+   $('this').find('.k2').css('left',1+'%').css('width',1+'px')
+  $('this').find('.k3').css('left',1400+'%').css('width',1+'px')
+  $('this').find('.k4').css('left',1+'%')
+  $('this').find('.k5').css('left',1400+'%').width(100+'px')
+  $('this').find('.k6').css('left',1400+'%').width(1+'px')
+   $('this').find('.k1').fadeOut(300)
+  $('this').find('.k2').fadeOut(300)
+  $('this').find('.k3').fadeOut(300)
+  $('this').find('.k4').fadeOut(300)
+  $('this').find('.k5').fadeOut(300)
+  $('this').find('.k6').fadeOut(300)
+    })
